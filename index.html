@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="instructions">
+    <p>The black box below mimics your JavaScript file. It can affect everything in your website</p>
+    <p><b>Change the current color at the end of the last line and click enter (ig: green, blue, yellow)</b></p>
+  </div>
+  <div id="codebox">
+    <p class="comment">// This line targets the body, meaning everything you can see on the website</p>
+    <p class="code">
+      <span class="darkblue">const</span>
+      <span class="blue">body</span>
+      <span class="white"> = </span>
+      <span class="blue">document</span>
+      <span class="white">.</span>
+      <span class="lightyellow">querySelector</span>
+      <span class="yellow">(</span>
+      <span class="orange">"body"</span>
+      <span class="yellow">)</span>
+    </p>
+
+    <br>
+
+    <p class="comment">// This line will change the background color value of the body.</p>
+    <p class="code">
+      <span class="blue">body</span>
+      <span class="white">.</span>
+      <span class="blue">style</span>
+      <span class="white">.</span>
+      <span class="lightblue">backgroundColor</span>
+      <span class="white"> = </span>
+      <span class="orange">
+      "<input type="text" value="darkgray">"</span>
+    </p>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
